@@ -1,0 +1,1 @@
+export const CORRECT_PHONE_NUMBER = '77059648485'
