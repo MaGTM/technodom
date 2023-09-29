@@ -2,6 +2,7 @@
   "name": "technodom-test",
   "version": "0.0.1",
   "author": "magtm",
+  "homepage": "https://magtm.github.io/technodom/",
   "repository": {
     "type": "git",
     "url": ""
@@ -20,6 +21,7 @@
     "test:ci": "jest --ci --coverage --runInBand",
     "commit": "git-cz",
     "generate-images": "gulp responsive_img",
+    "deploy": "gh-pages -d dist",
     "ac": "npm run check-types && npm run lint:fix && git add . && npm run commit"
   },
   "dependencies": {
@@ -76,6 +78,7 @@
     "eslint-plugin-testing-library": "^6.0.1",
     "eslint-plugin-unicorn": "^48.0.1",
     "eslint-plugin-unused-imports": "^3.0.0",
+    "gh-pages": "^6.0.0",
     "gulp": "^4.0.2",
     "gulp-sharp-responsive": "^0.4.1",
     "https-localhost": "^4.7.1",
