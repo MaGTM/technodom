@@ -8,6 +8,7 @@ import svgr from 'vite-plugin-svgr'
 import manifest from './manifest.json';
 
 export default defineConfig({
+  base: '/technodom/',
   plugins: [
     react(),
     svgr({
